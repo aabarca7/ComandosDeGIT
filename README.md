@@ -1,5 +1,5 @@
 
-Git Commands and terminal / Comandos de GIT y de la terminal :fa-file-code-o:
+Git Commands and terminal / Comandos de GIT y de la terminal 
 ============
 
 _A list of commonly used Git and Terminal commands_
@@ -8,7 +8,7 @@ _A list of commonly used Git and Terminal commands_
 
 --
 
-###  :fa-pencil: Terminal Commands / Comandos para la terminal 
+###   Terminal Commands / Comandos para la terminal 
 
 | Command | Description | Descripción |
 | ------- | ----------- | ------------ |
@@ -24,7 +24,7 @@ _A list of commonly used Git and Terminal commands_
 | `cat [name.txt]` | Concatenate files and print on the standard output | Vista previa del contenido del archivo |
 | `sudo` | execute a command as another user | Ejecuta un commando como administrador |
 
-###  :fa-pencil: Config Git / Configuracion de Git
+###  Config Git / Configuracion de Git
 
 | Command | Description | Descripción |
 | ------- | ----------- | ------------ |
@@ -32,7 +32,7 @@ _A list of commonly used Git and Terminal commands_
 | `git config --global user.email user@example.com` | Add a email for user | Añade un correo del usuario |
 | `git config --list` | List all setings | Muestra todas las configuraciones |
 
-###  :fa-pencil: Config SSH Keys / Configuracion de Credenciales SSH
+###  Config SSH Keys / Configuracion de Credenciales SSH
 
 | Command | Description | Descripción |
 | ------- | ----------- | ------------ |
@@ -40,14 +40,14 @@ _A list of commonly used Git and Terminal commands_
 | `eval $(ssh-agent -s)` | Verify ssh agent | Verifica la existencia del servidor de credenciales SSH |
 | `ssh-add [rute]` | Add SSH key to your workspace | Agrega la credencial SSH al entorno de trabajo |
 
-###  :fa-pencil: Creating Projects / Creacion de proyectos
+###  Creating Projects / Creacion de proyectos
 
 | Command | Description | Descripción |
 | ------- | ----------- | ------------ |
 | `git init` | Initialize a local Git repository | Inicia un repositorio local de Git |
 | `git clone [url]` | Create a local copy of a remote repository | Crea una copia local de un repositorio remoto |
 
-###  :fa-pencil: Basic Snapshotting / Snapshooting Basico
+###  Basic Snapshotting / Snapshooting Basico
 
 | Command | Description | Descripción |
 | ------- | ----------- | ----------- |
@@ -59,7 +59,7 @@ _A list of commonly used Git and Terminal commands_
 | `git rm -r [file-name.txt]` | Remove a file (or folder) | Elimina archivos o carpetas |
 | `git commit --amend` | Ammend the last commit | Agrega los cambios al ultimo commit en caso de error |
 
-###  :fa-pencil: Branching & Merging / Ramas y fusionar
+###  Branching & Merging / Ramas y fusionar
 
 | Command | Description | Descripción |
 | ------- | ----------- | ----------- |
@@ -79,7 +79,7 @@ _A list of commonly used Git and Terminal commands_
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
-###  :fa-pencil: Sharing & Updating Projects / Compartiendo y Repositorios Remotos
+###  Sharing & Updating Projects / Compartiendo y Repositorios Remotos
 
 | Command | Description | Descripción |
 | ------- | ----------- | ----------- |
@@ -92,7 +92,7 @@ _A list of commonly used Git and Terminal commands_
 | `git remote -v` | list remote connections | Lista las conexiones remotas |
 | `git remote set-url [branch name] [url]` | Change the url | Cambia la url del repositorio |
 
-###  :fa-pencil: Inspection & Comparison / Inspeccion y Comparacion
+###  Inspection & Comparison / Inspeccion y Comparacion
 
 | Command | Description | Descripción |
 | ------- | ----------- | ----------- |
@@ -101,14 +101,14 @@ _A list of commonly used Git and Terminal commands_
 | `git log -all --graph --decorate --oneline` | View changes (Max-detailed) | Muestra todos los cambios del repositorio detallada y graficamente |
 | `git diff [source branch] [target branch]` | Preview changes before merging | Compara los diferentes cambios |
 
-###  :fa-pencil: Reset
+###  Reset
 | Command | Description | Descripción |
 | ------- | ----------- | ----------- |
 | `git reset --soft [SHA1]` | Remove commits but leave the files in the staging area | Elimina commits pero deja los archivos en el staging area |
 | `git reset --mixed [SHA1]` | Remove commits and the files are left in the working directory | Elimina commits y los archivos quedan en el working directory |
 | `git reset --hard [SHA1]` | It eliminates changes to us even from the working directory | Nos elimina los cambios incluso del working directory |
 
-###  :fa-pencil: Others / Otros
+###  Others / Otros
 
 | Command | Description | Descripción |
 | ------- | ----------- | ----------- |
